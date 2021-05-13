@@ -1,0 +1,96 @@
+.cases
+    background-color: #12151D
+    padding: 110px 0 360px 0
+    max-width: 1920px
+    margin: auto
+    &__card
+        width: 730px
+        &--mobile
+            width: 280px
+        &__img
+            margin-bottom: 15px
+            transition: 0.3s
+            &:hover
+                transform: translateY(-5px)
+        &__link
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 18px
+            line-height: 130%
+            color: #B2B9D0
+            padding-top: 10px
+            position: relative
+            transition: 0.3s
+            &--mobile
+                font-size: 14px
+            &:hover
+                color: rgba(118,123,140, 0.9 )
+            &::before
+                content: ''
+                position: absolute
+                width: 42px
+                height: 2px
+                background: linear-gradient(to right, #DB4040 20%, #FB6E44)
+                left: 0
+                top: 0
+        &__text
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 16px
+            line-height: 150%
+            color: #B2B9D0
+            margin-bottom: 40px
+            max-width: 670px
+            &--mobile
+                font-size: 14px
+                margin-bottom: 30px
+        &__title
+            font-family: 'Montserrat-800'
+            font-style: normal
+            font-size: 36px
+            line-height: 130%
+            color: #FFFFFF
+            margin-bottom: 15px
+            &--mobile
+                font-size: 20px
+    &__button
+        padding: 18px 38px
+        &__wrap
+            display: none
+        &--mobile
+            display: none
+            margin: auto
+    &__row
+        align-items: flex-end
+    &__text
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 718px
+    &__title
+        margin-bottom: 20px
+    &__name
+        margin-bottom: 40px
+    &__inner
+        padding-top: 5px
+        transition: 0.3s
+        &--mobile
+            padding-right: 20px
+    &__window
+        cursor: pointer
+        overflow: hidden
+        width: 100%
+        &--mobile
+            width: 100%
+            overflow: auto
+            display: none
+            padding-left: 20px
+            padding-bottom: 20px
+    &__container
+        max-width: 1520px
+        padding: 0 20px
+        margin-bottom: 100px
+        &--slider
+            padding-left: calc( (100% - 1480px) / 2 )

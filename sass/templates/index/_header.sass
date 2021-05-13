@@ -1,0 +1,131 @@
+.header
+    position: fixed
+    left: 0
+    top: 0
+    background-color: transparent
+    width: 100%
+    height: 84px
+    overflow: hidden
+    transition: 0.3s
+    z-index: 4
+    &--bg
+        background: #0D1017
+    &--active
+        height: 100vh !important
+        overflow: auto
+        background-color: #0D1017
+        .header__burger__line
+            &--1
+                transform: rotate(-45deg)
+                transform-origin: right top
+            &--2
+                display: none
+            &--3
+                transform: rotate(45deg)
+                transform-origin: right bottom
+    &__logo
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+    &__button
+        font-size: 16px
+        padding: 15px 28px
+    &__menu
+        padding: 180px 20px 20px
+        width: 80%
+        &__footer
+            display: none
+        &__img
+            margin-right: 15px
+            &:last-of-type
+                margin-right: 0
+        &__tools
+            justify-content: flex-start
+            &__wrap
+                &:first-of-type
+                    margin-right: 120px
+            &__title
+                font-family: Montserrat-500
+                font-style: normal
+                font-size: 14px
+                line-height: 170%
+                color: #B2B9D0
+                margin-bottom: 15px
+        &__text
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 20px
+            line-height: 170%
+            color: #B2B9D0
+            max-width: 560px
+            &--first
+                margin-bottom: 25px
+            &--last
+                margin-bottom: 60px
+        &__name
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 30px
+            line-height: 130%
+            color: #B2B9D0
+            padding-left: 130px
+            position: relative
+            margin-bottom: 50px
+            &::before
+                content: ''
+                position: absolute
+                width: 100px
+                height: 2px
+                background: linear-gradient(to right, #DB4040 20%, #FB6E44)
+                left: 0
+                top: 50%
+                transform: translateY(-50%)
+        &__link
+            display: block
+            font-family: 'Montserrat-800'
+            font-style: normal
+            font-size: 64px
+            line-height: 130%
+            color: #FFFFFF
+            margin-bottom: 40px
+            transition: 0.3s
+            &:hover
+                color: #DB4040
+            &:last-of-type
+                margin-bottom: 0
+    &__container
+        padding: 15px 20px
+        position: relative
+    &__box
+        display: flex
+    &__links
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-right: 45px
+        &__item
+            margin-right: 15px
+            &:last-of-type
+                margin-right: 0
+            &:hover
+                path
+                    transition: 0.3s
+                    fill: #DB4040
+    &__burger
+        width: 48px
+        height: 34px
+        position: relative
+        cursor: pointer
+        &__line
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 3px
+            background-color: #fff
+            transition: 0.3s
+            &--2
+                top: 50%
+            &--3
+                top: 100%

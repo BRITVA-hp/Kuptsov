@@ -1,0 +1,84 @@
+.main
+    background-image: url(../img/index/main/bg.png)
+    background-repeat: no-repeat
+    background-position-y: top
+    background-position-x: center
+    background-size: cover
+    height: 100vh
+    min-height: 830px
+    position: relative
+    overflow: hidden
+    padding-top: 133px
+    &__exp
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 100px
+        z-index: 3
+        &--mobile
+            width: auto !important
+            display: none
+    &__box
+        position: relative
+        z-index: 3
+    &__mask
+        position: absolute
+        left: 337px
+        top: 210px
+        transition: 0.5s
+        &:hover
+            opacity: 0
+    &__img
+        position: absolute
+        z-index: 2
+        right: 180px
+        top: 133px
+        &__wrap
+            position: relative
+    &__text
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 20px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 560px
+        br
+            display: none
+        &>span
+            display: inline-block
+            color: #ffffff
+            background: linear-gradient(87.83deg, #DB4040 7.67%, #FB6E44 97.92%)
+            border-radius: 5px
+            padding: 0 10px
+            transform: skewX(-10deg)
+            span
+                display: inline-block
+                transform: skewX(10deg)
+    &__subtitle
+        font-family: 'Montserrat-800'
+        font-style: normal
+        font-size: 48px
+        line-height: 130%
+        color: #FFFFFF
+        max-width: 717px
+        margin-bottom: 40px
+    &__title
+        margin: 0
+        margin-bottom: 10px
+        font-family: 'Montserrat-800'
+        font-style: normal
+        font-size: 72px
+        line-height: 130%
+        color: #FFFFFF
+        background: linear-gradient(87.83deg, #DB4040 7.67%, #FB6E44 97.92%)
+        border-radius: 10px
+        padding: 0 45px
+        transform: translateX(-45px)
+    &__name
+        margin-bottom: 30px
+    &__container
+        padding-top: 120px
+        padding-bottom: 20px
+        height: 100%
+        display: flex
+        justify-content: space-between

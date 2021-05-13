@@ -1,0 +1,132 @@
+.go
+    background-color: #13161F
+    padding-top: 140px
+    padding-bottom: 90px
+    &__box
+        margin-right: 170px
+    &__info
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 10px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 340px
+        margin-bottom: 35px
+        span
+            color: #DB4040
+    &__textarea
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        padding: 0 0 0 12px
+        border: none
+        border-bottom: 1px solid #B2B9D0
+        background-color: transparent
+        max-height: 120px
+        width: 100%
+        resize: none
+        margin-bottom: 25px
+        &::placeholder
+            font-family: 'Montserrat-300'
+            font-style: normal
+            line-height: 170%
+            color: #B2B9D0
+    &__row
+        justify-content: flex-start
+        &--input
+            margin-bottom: 50px
+    &__input-group
+        width: 200px
+        &:first-of-type
+            margin-right: 50px
+        &--msg
+            display: none
+            &--active
+                display: block
+                animation-name: fadeIn
+                animation-duration: 0.5s
+    &__input
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        padding: 0 0 0 12px
+        border: none
+        border-bottom: 1px solid #B2B9D0
+        background-color: transparent
+        width: 100%
+        &:focus
+           border-bottom: 1px solid #DB4040
+        &--valid
+            border-bottom: 1px solid #298649
+            background-image: url(../img/valid.png)
+            background-repeat: no-repeat
+            background-position-y: center
+            background-position-x: right
+            &:focus
+                border-bottom: 1px solid #298649
+        &--invalid
+            border-bottom: 1px solid #C50628
+            background-image: url(../img/invalid.png)
+            background-repeat: no-repeat
+            background-position-y: center
+            background-position-x: right
+            &:focus
+                border-bottom: 1px solid #C50628
+        &::placeholder
+            font-family: 'Montserrat-300'
+            font-style: normal
+            line-height: 170%
+            color: #B2B9D0
+    &__button
+        padding: 18px 50px
+    &__form
+        &__text
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 16px
+            line-height: 170%
+            color: #B2B9D0
+            max-width: 150px
+            margin-right: 35px
+        &__header
+            display: flex
+            align-items: center
+            margin-bottom: 70px
+            &__wrap
+                display: flex
+                align-items: center
+        &__logo
+            width: 60px
+            height: 60px
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-right: 10px
+            cursor: pointer
+            border-radius: 50%
+            border: 1px solid transparent
+            &:hover
+                border: 1px solid #DB4040
+            &:last-of-type
+                margin-right: 0
+            &--active
+                background: linear-gradient(87.83deg, #DB4040 7.67%, #FB6E44 97.92%)
+                path
+                    fill: #ffffff
+                &:hover
+                    border: 1px solid transparent
+    &__name
+        margin-bottom: 40px
+    &__title
+        margin-bottom: 30px
+    &__text
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 580px

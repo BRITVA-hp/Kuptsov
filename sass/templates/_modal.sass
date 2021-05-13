@@ -1,0 +1,213 @@
+.modal
+    opacity: 0
+    visibility: hidden
+    position: fixed
+    z-index: 199
+    left: 0
+    top: 0
+    bottom: 0
+    right: 0
+    background-color: rgba(0,0,0, 0.6)
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: 0.3s
+    &--active
+        opacity: 1 !important
+        visibility: visible !important
+    &__dialog
+        width: 900px
+        padding: 80px 0 60px 100px
+        background-color: #111319
+        border: 1px solid #DB4040
+        border-radius: 30px
+        background-image: url(../img/modal/bg.png)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
+        position: relative
+        display: flex
+    &__img
+        position: absolute
+        right: 0
+        bottom: 0
+    &__close
+        position: absolute
+        right: 30px
+        top: 30px
+        cursor: pointer
+    &__title
+        font-family: 'Montserrat-800'
+        font-style: normal
+        font-size: 36px
+        line-height: 130%
+        color: #FFFFFF
+        margin-bottom: 45px
+    &__text
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 150px
+        margin-right: 35px
+    &__row
+        display: flex
+        align-items: center
+        margin-bottom: 60px
+        &--input
+            justify-content: flex-start
+            margin-bottom: 30px
+        &--file
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-bottom: 15px
+    &__info
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 10px
+        line-height: 170%
+        color: #B2B9D0
+        max-width: 340px
+        span
+            color: #DB4040
+    &__button
+        padding: 18px 50px
+    &__file
+        display: none
+    &__label
+        cursor: pointer
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 14px
+        line-height: 130%
+        color: #B2B9D0
+        display: flex
+        align-items: center
+        img
+            margin-right: 15px
+        span
+            max-width: 90px
+            display: block
+    &__textarea
+        background-color: transparent
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        padding-left: 12px
+        border: none
+        border-bottom: 1px solid #B2B9D0
+        width: 100%
+        max-height: 120px
+        resize: none
+        margin-bottom: 30px
+        &::placeholder
+            color: #B2B9D0
+    &__wrap
+        display: flex
+        align-items: center
+    &__logo
+        width: 60px
+        height: 60px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        cursor: pointer
+        margin-right: 15px
+        &:last-of-type
+            margin-right: 0
+        &:hover
+            border: 1px solid #DB4040
+        &--active
+            background: linear-gradient(87.83deg, #DB4040 7.67%, #FB6E44 97.92%)
+            path
+                fill: #ffffff
+    &__input
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        color: #B2B9D0
+        padding-left: 12px
+        border: none
+        border-bottom: 1px solid #B2B9D0
+        width: 100%
+        background-color: transparent
+        &::placeholder
+            color: #B2B9D0
+    &__input-group
+        width: 200px
+        &:first-of-type
+            margin-right: 50px
+        &--msg
+            display: none
+            &--active
+                display: block
+                animation-name: fadeIn
+                animation-duration: 0.5s
+
+.modal-success
+    opacity: 0
+    visibility: hidden
+    position: fixed
+    z-index: 199
+    left: 0
+    top: 0
+    bottom: 0
+    right: 0
+    background-color: rgba(0,0,0, 0.6)
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: 0.3s
+    &__title
+        font-family: 'Montserrat-Bold'
+        font-style: normal
+        font-size: 24px
+        line-height: 170%
+        color: #FFFFFF
+    &__img
+        width: 90px
+        height: 90px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        background: linear-gradient(87.83deg, #DB4040 7.67%, #FB6E44 97.92%)
+        margin-right: 35px
+    &__row
+        display: flex
+        align-items: center
+        margin-bottom: 105px
+    &__dialog
+        position: relative
+        width: 450px
+        height: 600px
+        background-color: #111319
+        border: 1px solid #DB4040
+        border-radius: 30px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        background-image: url(../img/modal/bg.png)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
+    &__close
+        position: absolute
+        right: 30px
+        top: 30px
+        cursor: pointer
+    &__text
+        font-family: 'Montserrat-300'
+        font-style: normal
+        font-size: 16px
+        line-height: 170%
+        text-align: center
+        color: #B2B9D0
+        max-width: 320px

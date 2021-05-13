@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Создание лендинга, веб дизайн – ux/ui дизайнер Евгений Купцов</title>
+    <meta name="yandex-verification" content="8d1181ebcbc440b4" />
+    <meta name="description" content="Создаю мощный дизайн сайтов, который привлечет клиентов. Оформление соцсетей, делаем лендинг под ключ. Бесплатный аудит сайта.">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__container container">
+            <div class="row--center">
+                <div class="header__burger">
+                    <span class="header__burger__line header__burger__line--1"></span>
+                    <span class="header__burger__line header__burger__line--2"></span>
+                    <span class="header__burger__line header__burger__line--3"></span>
+                </div>
+
+                <a href="./index.html" class="header__logo"><img src="img/header/logo.png" alt="Kuptsov"></a>
+
+                <div class="header__box">
+                    <div class="header__links">
+                        <a  target="_blank" class="header__links__item" href="https://teleg.run/KuptsovEV">
+                            <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6651 0.71682L0.935095 7.55382C-0.274905 8.03982 -0.267905 8.71482 0.713095 9.01582L5.2651 10.4358L15.7971 3.79082C16.2951 3.48782 16.7501 3.65082 16.3761 3.98282L7.8431 11.6838H7.8411L7.8431 11.6848L7.5291 16.3768C7.9891 16.3768 8.19209 16.1658 8.4501 15.9168L10.6611 13.7668L15.2601 17.1638C16.1081 17.6308 16.7171 17.3908 16.9281 16.3788L19.9471 2.15082C20.2561 0.91182 19.4741 0.35082 18.6651 0.71682Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a  target="_blank" class="header__links__item" href="https://www.instagram.com/kuptsov_design/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.8165 5.78076C12.6847 5.78076 13.5 5.93958 14.2624 6.25723C15.0247 6.57488 15.6918 7.01958 16.2635 7.59135C16.8353 8.16311 17.28 8.83017 17.5976 9.59253C17.9153 10.3549 18.0741 11.1702 18.0741 12.0384C18.0741 12.9066 17.9153 13.7113 17.5976 14.4525C17.28 15.1937 16.8353 15.8608 16.2635 16.4537C15.6918 17.0466 15.0247 17.4914 14.2624 17.7878C13.5 18.0843 12.6847 18.2537 11.8165 18.2961C10.9482 18.3384 10.1329 18.169 9.37059 17.7878C8.60824 17.4066 7.95177 16.9619 7.40118 16.4537C6.85059 15.9455 6.40588 15.2784 6.06706 14.4525C5.72824 13.6266 5.55882 12.8219 5.55882 12.0384C5.55882 11.2549 5.72824 10.4396 6.06706 9.59253C6.40588 8.74547 6.85059 8.07841 7.40118 7.59135C7.95177 7.10429 8.60824 6.65958 9.37059 6.25723C10.1329 5.85488 10.9482 5.69605 11.8165 5.78076ZM11.8165 16.0725C12.3671 16.0725 12.8859 15.9666 13.3729 15.7549C13.86 15.5431 14.2941 15.2572 14.6753 14.8972C15.0565 14.5372 15.3424 14.1031 15.5329 13.5949C15.7235 13.0866 15.8294 12.5678 15.8506 12.0384C15.8718 11.509 15.7659 10.9796 15.5329 10.4502C15.3 9.92076 15.0141 9.48664 14.6753 9.14782C14.3365 8.809 13.9024 8.52311 13.3729 8.29017C12.8435 8.05723 12.3247 7.95135 11.8165 7.97253C11.3082 7.9937 10.7894 8.09958 10.26 8.29017C9.73059 8.48076 9.29647 8.76664 8.95765 9.14782C8.61882 9.529 8.33294 9.96311 8.1 10.4502C7.86706 10.9372 7.76118 11.4666 7.78235 12.0384C7.80353 12.6102 7.90941 13.129 8.1 13.5949C8.29059 14.0608 8.57647 14.4949 8.95765 14.8972C9.33882 15.2996 9.77294 15.5855 10.26 15.7549C10.7471 15.9243 11.2659 16.0302 11.8165 16.0725ZM23.5059 6.09841C23.6965 10.0584 23.6965 14.0184 23.5059 17.9784C23.4635 18.7408 23.2835 19.4608 22.9659 20.1384C22.6482 20.8161 22.2353 21.409 21.7271 21.9172C21.2188 22.4255 20.6153 22.849 19.9165 23.1878C19.2176 23.5266 18.4976 23.7066 17.7565 23.7278C16.7612 23.7702 15.7765 23.8019 14.8024 23.8231C13.8282 23.8443 12.8329 23.8549 11.8165 23.8549C10.8 23.8549 9.8153 23.8443 8.86235 23.8231C7.90941 23.8019 6.91412 23.7702 5.87647 23.7278C5.11412 23.6855 4.39412 23.5055 3.71647 23.1878C3.03882 22.8702 2.44588 22.4466 1.93765 21.9172C1.42941 21.3878 1.00588 20.7949 0.667059 20.1384C0.328235 19.4819 0.148235 18.7619 0.127059 17.9784C-0.0423529 14.0184 -0.0423529 10.0584 0.127059 6.09841C0.169412 5.33606 0.349412 4.61606 0.667059 3.93841C0.984706 3.26076 1.40824 2.65723 1.93765 2.12782C2.46706 1.59841 3.06 1.18547 3.71647 0.888996C4.37294 0.592525 5.09294 0.412525 5.87647 0.348996C9.83647 0.158408 13.7965 0.158408 17.7565 0.348996C18.5188 0.391349 19.2388 0.571349 19.9165 0.888996C20.5941 1.20664 21.1976 1.61958 21.7271 2.12782C22.2565 2.63605 22.6694 3.23958 22.9659 3.93841C23.2624 4.63723 23.4424 5.35723 23.5059 6.09841ZM21.2824 17.8514C21.4729 13.9761 21.4729 10.0902 21.2824 6.1937C21.2612 5.72782 21.1447 5.28311 20.9329 4.85958C20.7212 4.43606 20.4565 4.05488 20.1388 3.71605C19.8212 3.37723 19.44 3.10194 18.9953 2.89017C18.5506 2.67841 18.1059 2.56194 17.6612 2.54076C16.6871 2.49841 15.7129 2.46664 14.7388 2.44547C13.7647 2.42429 12.7906 2.4137 11.8165 2.4137C10.8424 2.4137 9.86824 2.42429 8.89412 2.44547C7.92 2.46664 6.94588 2.49841 5.97177 2.54076C5.50588 2.56194 5.06118 2.67841 4.63765 2.89017C4.21412 3.10194 3.84353 3.37723 3.52588 3.71605C3.20824 4.05488 2.93294 4.43606 2.7 4.85958C2.46706 5.28311 2.35059 5.72782 2.35059 6.1937C2.16 10.0902 2.16 13.9866 2.35059 17.8831C2.37176 18.349 2.48824 18.7937 2.7 19.2172C2.91176 19.6408 3.18706 20.0114 3.52588 20.329C3.86471 20.6466 4.23529 20.9219 4.63765 21.1549C5.04 21.3878 5.48471 21.5043 5.97177 21.5043C9.86824 21.6949 13.7647 21.6949 17.6612 21.5043C18.1271 21.4831 18.5718 21.3666 18.9953 21.1549C19.4188 20.9431 19.8 20.6678 20.1388 20.329C20.4776 19.9902 20.7424 19.609 20.9329 19.1855C21.1235 18.7619 21.24 18.3172 21.2824 17.8514ZM18.0741 4.38311C18.4553 4.38311 18.7835 4.52076 19.0588 4.79605C19.3341 5.07135 19.4718 5.39958 19.4718 5.78076C19.4718 6.16194 19.3341 6.49017 19.0588 6.76547C18.7835 7.04076 18.4553 7.17841 18.0741 7.17841C17.6929 7.17841 17.3647 7.04076 17.0894 6.76547C16.8141 6.49017 16.6765 6.16194 16.6765 5.78076C16.6765 5.39958 16.8141 5.07135 17.0894 4.79605C17.3647 4.52076 17.6929 4.38311 18.0741 4.38311Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a target="_blank" class="header__links__item" href="https://www.behance.net/kuptsov_design">
+                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.364 0.92608H19.8537V2.27615H14.364V0.92608ZM8.86329 6.26778C10.0768 5.67922 10.7124 4.78382 10.7124 3.40028C10.7124 0.663877 8.70369 0 6.38399 0H0V13.735H6.56285C9.02289 13.735 11.3316 12.5356 11.3316 9.74616C11.3316 8.02232 10.5281 6.74756 8.86329 6.26778ZM2.97736 2.3431H5.77036C6.84628 2.3431 7.81213 2.64714 7.81213 3.91353C7.81213 5.0795 7.06091 5.54812 5.996 5.54812H2.97736V2.3431ZM6.1556 11.4031H2.97461V7.62064H6.21889C7.52871 7.62064 8.35697 8.17573 8.35697 9.58159C8.35697 10.9651 7.36911 11.4031 6.1556 11.4031ZM22 8.90656C22 5.96374 20.3022 3.51185 17.2313 3.51185C14.2457 3.51185 12.2149 5.79079 12.2149 8.77824C12.2149 11.8745 14.1383 14 17.2313 14C19.573 14 21.0892 12.9317 21.8184 10.6527H19.4437C19.185 11.5035 18.1338 11.9498 17.3166 11.9498C15.7371 11.9498 14.9116 11.0126 14.9116 9.4198H21.9807C21.989 9.25523 22 9.08229 22 8.90656ZM14.9116 7.69596C14.9969 6.38773 15.8582 5.57043 17.146 5.57043C18.4998 5.57043 19.1767 6.37657 19.2951 7.69596H14.9116Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <button data-modal class="button button--transparent header__button">Бесплатный аудит</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menu container--small">
+            <div class="header__menu__row row">
+                <div class="header__menu__box header__menu__box--left">
+                    <a href="#" class="header__menu__link">Кейсы</a>
+                    <a href="#" class="header__menu__link">Блог</a>
+                    <a href="#" class="header__menu__link">Цены</a>
+                </div>
+
+                <div class="header__menu__box header__menu__box--right">
+                    <p class="header__menu__name">Привет! Я, Евгений!</p>
+                    <p class="header__menu__text header__menu__text--first">I love interesting projects in the field of design and redesign of websites and UI/UX. I will be happy to work on your project!</p>
+                    <p class="header__menu__text header__menu__text--last">I love interesting projects in the field of design and redesign of websites and UI/UX. I will be happy to work on your project!</p>
+                    <div class="header__menu__tools row">
+                        <div class="header__menu__tools__wrap">
+                            <p class="header__menu__tools__title">Дизайн инструменты</p>
+                            <div class="header__menu__tools__imgs">
+                                <img src="./img/header/figma.png" alt="figma" class="header__menu__img">
+                                <img src="./img/header/adobephotoshop.png" alt="adobephotoshop" class="header__menu__img">
+                                <img src="./img/header/adobeillustrator.png" alt="adobeillustrator" class="header__menu__img">
+                            </div>
+                        </div>
+
+                        <div class="header__menu__tools__wrap">
+                            <p class="header__menu__tools__title">Инструменты верстки</p>
+                            <div class="header__menu__tools__imgs">
+                                <img src="./img/header/HTML5.png" alt="HTML5" class="header__menu__img">
+                                <img src="./img/header/CSS3.png" alt="CSS3" class="header__menu__img">
+                                <img src="./img/header/JavaScript.png" alt="JavaScript" class="header__menu__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__menu__footer">
+                    <button data-modal class="button button--transparent header__button">Бесплатный аудит</button>
+
+                    <div class="header__links">
+                        <a target="_blank" class="header__links__item" href="https://teleg.run/KuptsovEV">
+                            <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6651 0.71682L0.935095 7.55382C-0.274905 8.03982 -0.267905 8.71482 0.713095 9.01582L5.2651 10.4358L15.7971 3.79082C16.2951 3.48782 16.7501 3.65082 16.3761 3.98282L7.8431 11.6838H7.8411L7.8431 11.6848L7.5291 16.3768C7.9891 16.3768 8.19209 16.1658 8.4501 15.9168L10.6611 13.7668L15.2601 17.1638C16.1081 17.6308 16.7171 17.3908 16.9281 16.3788L19.9471 2.15082C20.2561 0.91182 19.4741 0.35082 18.6651 0.71682Z" fill="white"/>
+                            </svg>                                
+                        </a>
+                        <a target="_blank" class="header__links__item" href="https://www.instagram.com/kuptsov_design/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.8165 5.78076C12.6847 5.78076 13.5 5.93958 14.2624 6.25723C15.0247 6.57488 15.6918 7.01958 16.2635 7.59135C16.8353 8.16311 17.28 8.83017 17.5976 9.59253C17.9153 10.3549 18.0741 11.1702 18.0741 12.0384C18.0741 12.9066 17.9153 13.7113 17.5976 14.4525C17.28 15.1937 16.8353 15.8608 16.2635 16.4537C15.6918 17.0466 15.0247 17.4914 14.2624 17.7878C13.5 18.0843 12.6847 18.2537 11.8165 18.2961C10.9482 18.3384 10.1329 18.169 9.37059 17.7878C8.60824 17.4066 7.95177 16.9619 7.40118 16.4537C6.85059 15.9455 6.40588 15.2784 6.06706 14.4525C5.72824 13.6266 5.55882 12.8219 5.55882 12.0384C5.55882 11.2549 5.72824 10.4396 6.06706 9.59253C6.40588 8.74547 6.85059 8.07841 7.40118 7.59135C7.95177 7.10429 8.60824 6.65958 9.37059 6.25723C10.1329 5.85488 10.9482 5.69605 11.8165 5.78076ZM11.8165 16.0725C12.3671 16.0725 12.8859 15.9666 13.3729 15.7549C13.86 15.5431 14.2941 15.2572 14.6753 14.8972C15.0565 14.5372 15.3424 14.1031 15.5329 13.5949C15.7235 13.0866 15.8294 12.5678 15.8506 12.0384C15.8718 11.509 15.7659 10.9796 15.5329 10.4502C15.3 9.92076 15.0141 9.48664 14.6753 9.14782C14.3365 8.809 13.9024 8.52311 13.3729 8.29017C12.8435 8.05723 12.3247 7.95135 11.8165 7.97253C11.3082 7.9937 10.7894 8.09958 10.26 8.29017C9.73059 8.48076 9.29647 8.76664 8.95765 9.14782C8.61882 9.529 8.33294 9.96311 8.1 10.4502C7.86706 10.9372 7.76118 11.4666 7.78235 12.0384C7.80353 12.6102 7.90941 13.129 8.1 13.5949C8.29059 14.0608 8.57647 14.4949 8.95765 14.8972C9.33882 15.2996 9.77294 15.5855 10.26 15.7549C10.7471 15.9243 11.2659 16.0302 11.8165 16.0725ZM23.5059 6.09841C23.6965 10.0584 23.6965 14.0184 23.5059 17.9784C23.4635 18.7408 23.2835 19.4608 22.9659 20.1384C22.6482 20.8161 22.2353 21.409 21.7271 21.9172C21.2188 22.4255 20.6153 22.849 19.9165 23.1878C19.2176 23.5266 18.4976 23.7066 17.7565 23.7278C16.7612 23.7702 15.7765 23.8019 14.8024 23.8231C13.8282 23.8443 12.8329 23.8549 11.8165 23.8549C10.8 23.8549 9.8153 23.8443 8.86235 23.8231C7.90941 23.8019 6.91412 23.7702 5.87647 23.7278C5.11412 23.6855 4.39412 23.5055 3.71647 23.1878C3.03882 22.8702 2.44588 22.4466 1.93765 21.9172C1.42941 21.3878 1.00588 20.7949 0.667059 20.1384C0.328235 19.4819 0.148235 18.7619 0.127059 17.9784C-0.0423529 14.0184 -0.0423529 10.0584 0.127059 6.09841C0.169412 5.33606 0.349412 4.61606 0.667059 3.93841C0.984706 3.26076 1.40824 2.65723 1.93765 2.12782C2.46706 1.59841 3.06 1.18547 3.71647 0.888996C4.37294 0.592525 5.09294 0.412525 5.87647 0.348996C9.83647 0.158408 13.7965 0.158408 17.7565 0.348996C18.5188 0.391349 19.2388 0.571349 19.9165 0.888996C20.5941 1.20664 21.1976 1.61958 21.7271 2.12782C22.2565 2.63605 22.6694 3.23958 22.9659 3.93841C23.2624 4.63723 23.4424 5.35723 23.5059 6.09841ZM21.2824 17.8514C21.4729 13.9761 21.4729 10.0902 21.2824 6.1937C21.2612 5.72782 21.1447 5.28311 20.9329 4.85958C20.7212 4.43606 20.4565 4.05488 20.1388 3.71605C19.8212 3.37723 19.44 3.10194 18.9953 2.89017C18.5506 2.67841 18.1059 2.56194 17.6612 2.54076C16.6871 2.49841 15.7129 2.46664 14.7388 2.44547C13.7647 2.42429 12.7906 2.4137 11.8165 2.4137C10.8424 2.4137 9.86824 2.42429 8.89412 2.44547C7.92 2.46664 6.94588 2.49841 5.97177 2.54076C5.50588 2.56194 5.06118 2.67841 4.63765 2.89017C4.21412 3.10194 3.84353 3.37723 3.52588 3.71605C3.20824 4.05488 2.93294 4.43606 2.7 4.85958C2.46706 5.28311 2.35059 5.72782 2.35059 6.1937C2.16 10.0902 2.16 13.9866 2.35059 17.8831C2.37176 18.349 2.48824 18.7937 2.7 19.2172C2.91176 19.6408 3.18706 20.0114 3.52588 20.329C3.86471 20.6466 4.23529 20.9219 4.63765 21.1549C5.04 21.3878 5.48471 21.5043 5.97177 21.5043C9.86824 21.6949 13.7647 21.6949 17.6612 21.5043C18.1271 21.4831 18.5718 21.3666 18.9953 21.1549C19.4188 20.9431 19.8 20.6678 20.1388 20.329C20.4776 19.9902 20.7424 19.609 20.9329 19.1855C21.1235 18.7619 21.24 18.3172 21.2824 17.8514ZM18.0741 4.38311C18.4553 4.38311 18.7835 4.52076 19.0588 4.79605C19.3341 5.07135 19.4718 5.39958 19.4718 5.78076C19.4718 6.16194 19.3341 6.49017 19.0588 6.76547C18.7835 7.04076 18.4553 7.17841 18.0741 7.17841C17.6929 7.17841 17.3647 7.04076 17.0894 6.76547C16.8141 6.49017 16.6765 6.16194 16.6765 5.78076C16.6765 5.39958 16.8141 5.07135 17.0894 4.79605C17.3647 4.52076 17.6929 4.38311 18.0741 4.38311Z" fill="white"/>
+                            </svg>                                
+                        </a>
+                        <a target="_blank" class="header__links__item" href="https://www.behance.net/kuptsov_design">
+                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.364 0.92608H19.8537V2.27615H14.364V0.92608ZM8.86329 6.26778C10.0768 5.67922 10.7124 4.78382 10.7124 3.40028C10.7124 0.663877 8.70369 0 6.38399 0H0V13.735H6.56285C9.02289 13.735 11.3316 12.5356 11.3316 9.74616C11.3316 8.02232 10.5281 6.74756 8.86329 6.26778ZM2.97736 2.3431H5.77036C6.84628 2.3431 7.81213 2.64714 7.81213 3.91353C7.81213 5.0795 7.06091 5.54812 5.996 5.54812H2.97736V2.3431ZM6.1556 11.4031H2.97461V7.62064H6.21889C7.52871 7.62064 8.35697 8.17573 8.35697 9.58159C8.35697 10.9651 7.36911 11.4031 6.1556 11.4031ZM22 8.90656C22 5.96374 20.3022 3.51185 17.2313 3.51185C14.2457 3.51185 12.2149 5.79079 12.2149 8.77824C12.2149 11.8745 14.1383 14 17.2313 14C19.573 14 21.0892 12.9317 21.8184 10.6527H19.4437C19.185 11.5035 18.1338 11.9498 17.3166 11.9498C15.7371 11.9498 14.9116 11.0126 14.9116 9.4198H21.9807C21.989 9.25523 22 9.08229 22 8.90656ZM14.9116 7.69596C14.9969 6.38773 15.8582 5.57043 17.146 5.57043C18.4998 5.57043 19.1767 6.37657 19.2951 7.69596H14.9116Z" fill="white"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- /.geader section -->
+
+    <main>
+
+        <section class="section main">
+            <img class="main__exp" src="img/index/main/exp.png" alt="experience">
+            <img class="main__exp main__exp--mobile" src="img/index/main/expMobile.png" alt="experience">
+
+            <div class="main__container container">
+
+                <div class="main__box">
+                    <p class="main__name header__menu__name">Привет! Я, Евгений!</p>
+                    <h1 class="main__title">UI/UX дизайнер</h1>
+                    <h2 class="main__subtitle">создаю решения для веб и мобильных приложений</h2>
+                    <p class="main__text">Люблю <span><span>интересные проекты</span></span> <br> в области дизайна и редизайна сайтов и UI/UX. Буду рад поработать над вашим проектом!</p>
+                </div>
+                
+                <div class="main__img">
+                    <div class="main__img__wrap">
+                        <img class="main__mask" src="img/index/main/mask.png" alt="mask">
+                        <img src="img/index/main/Kuptsov.png" alt="Kuptsov">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.section main -->
+
+        <section class="section work">
+
+            <div class="work__container container">
+
+                <img src="img/index/work/img.png" alt="project" class="work__img work__img--1">
+                <img src="img/index/work/img1.png" alt="project" class="work__img work__img--2">
+                <img src="img/index/work/img2.png" alt="project" class="work__img work__img--3">
+
+                <div class="work__box">
+                    <div class="work__box__wrap">
+                        <p class="work__name header__menu__name">Мои услуги</p>
+                        <h3 class="section__title work__title">Что я делаю</h3>
+                        <p class="work__text">Я с удовольствием разработаю для вас дизайн сайта или мобильного приложения, а также сделаю редизайн. Упакую ваш бизнес в социальных сетях. И так, чем же я могу быть вам полезен:</p>
+                    </div>
+                    <div class="work__img--mobile"><img src="img/index/work/imgMobile.png" alt="work"></div>
+                    <div class="work__wrap">
+                        <div class="work__line">
+                            <div class="work__line__wrap">
+                                <div class="work__logo"><img src="img/index/work/logo.png" alt="design"></div>
+                                <p class="work__line__text">UI/UX Дизайн</p>
+                            </div>
+                        </div>
+
+                        <div class="work__line">
+                            <div class="work__line__wrap">
+                                <div class="work__logo"><img src="img/index/work/logo1.png" alt="web"></div>
+                                <p class="work__line__text">Дизайн Соцсетей</p>
+                            </div>
+                        </div>
+
+                        <div class="work__line">
+                            <div class="work__line__wrap">
+                                <div class="work__logo"><img src="img/index/work/logo2.png" alt="graphics"></div>
+                                <p class="work__line__text">Графический дизайн</p>
+                            </div>
+                        </div>
+
+                        <div class="work__line">
+                            <div class="work__line__wrap">
+                                <div class="work__logo"><img src="img/index/work/logo3.png" alt="mobile"></div>
+                                <p class="work__line__text">Мобильный Дизайн</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.setion work -->
+
+        <section class="section landing">
+
+            <div class="container">
+
+                <div class="landing__row row">
+                    <div class="landing__info">
+                        <p class="landing__name header__menu__name">Супер предложение</p>
+                        <h3 class="section__title landing__title">Landing Page <br>“под ключ”</h3>
+                        <p class="landing__text landing__text--top">Разработка уникального дизайна страницы + верстка по дизайну пиксель в пиксель.</p>
+                        <p class="landing__text landing__text--bot">Landing Page позволит в кратчайшие сроки протестировать спрос на товар или услугу, запустить акцию, а также получить клиентов уже в первый день запуска! Наши лендинги отличаются высокой конверсией, продуманной маркетинговой структурой и вызывающим дизайном!</p>
+                        <img class="landing__img landing__img--mobile" src="img/index/landing/imgMobile.png" alt="landing page">
+                        <div class="landing__info__footer">
+                            <div class="landing__info__footer__wrap">
+                                <div class="landing__gift__logo landing__gift__logo--mobile"><img src="img/index/landing/logoMobile.png" alt="sell"></div>
+                                <p class="landing__info__footer__price--old">36 990 ₽</p>
+                                <p class="landing__info__footer__price">29 990 ₽</p>
+                            </div>
+                            <button data-modal class="button landing__button button--red">Круто! Хочу сайт!</button>
+                        </div>
+                    </div>
+
+                    <img class="landing__img" src="img/index/landing/img.png" alt="landing page">
+                    <img class="landing__img landing__img--mini" src="img/index/landing/imgMobile.png" alt="landing page">
+
+                    <div class="landing__gift">
+                        <div class="landing__gift__logo"><img src="img/index/landing/logo.png" alt="gift"></div>
+                        <div class="landing__gift__logo landing__gift__logo--mini"><img src="img/index/landing/logoMobile.png" alt="sell"></div>
+                        <p class="landing__gift__title landing__gift__title--plus">+</p>
+                        <p class="landing__gift__title">подарок</p>
+                        <p class="landing__gift__text">обновленный логотип</p>
+                        <p class="landing__gift__free"><span>БЕСПЛАТНО</span></p>
+                        <div class="landing__gift__wrap">
+                            <p class="landing__gift__price--old landing__info__footer__price--old">4 990 ₽</p>
+                            <p class="landing__gift__price landing__info__footer__price">0 ₽</p>
+                        </div>
+                        <button data-modal class="button landing__button landing__button--mobile button--red">Круто! Хочу сайт!</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.sectio landing -->
+
+        <section class="cases">
+
+            <div class="container cases__container">
+                <div class="cases__row row">
+                    <div class="cases__box">
+                        <p class="cases__name header__menu__name">Кейсы</p>
+                        <h3 class="section__title cases__title">Последние Работы</h3>
+                        <p class="cases__text">Можете оценить уровень моих работ и что действительно качество внушает доверие! Я с удовольствием помогу вашему сайту обрести новый облик, который завоюет ваших покупателей!</p>
+                    </div>
+                    <a href="#" class="button button--transparent cases__button">Посмотреть все</a>
+                </div>
+            </div>
+
+            <div class="cases__window--mobile">
+                <div class="cases__inner--mobile row">
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">Оптика Бранчевского</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile1.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">Кухонные ножи Yaxell</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile2.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">Кухня здоровья</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile3.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">Капитал Кредит</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile4.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">ПЦСА “Жизнь”</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+
+                    <div class="cases__card cases__card--mobile">
+                        <div class="cases__card__img"><img src="img/index/cases/imgMobile5.png" alt="project"></div>
+                        <p class="cases__card__title cases__card__title--mobile">АН “ЭСТЕКО”</p>
+                        <p class="cases__card__text cases__card__text--mobile">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                        <a href="#" class="cases__card__link cases__card__link--mobile">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cases__container--slider">
+                <div class="cases__window">
+                    <div class="row cases__inner">
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img.png" alt="project"></div>
+                            <p class="cases__card__title">Оптика Бранчевского</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img1.png" alt="project"></div>
+                            <p class="cases__card__title">Кухонные ножи Yaxell</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img2.png" alt="project"></div>
+                            <p class="cases__card__title">Кухня здоровья</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img3.png" alt="project"></div>
+                            <p class="cases__card__title">Капитал Кредит</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img4.png" alt="project"></div>
+                            <p class="cases__card__title">ПЦСА “Жизнь”</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+
+                        <div class="cases__card" data-sliderCard>
+                            <div class="cases__card__img"><img src="img/index/cases/img5.png" alt="project"></div>
+                            <p class="cases__card__title">АН “ЭСТЕКО”</p>
+                            <p class="cases__card__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX.</p>
+                            <a href="#" class="cases__card__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cases__button__wrap">
+                <a href="#" class="button cases__button button button--transparent cases__button--mobile">Посмотреть все</a>
+            </div>
+
+        </section>
+        <!-- /.section cases -->
+
+        <section class="section rivals">
+            <div class="rivals__elem rivals__elem--1"></div>
+            <div class="rivals__elem rivals__elem--2"></div>
+            <div class="rivals__elem rivals__elem--3"></div>
+            <div class="rivals__container">
+                <div class="rivals__bg">
+                </div>                    
+                <div class="rivals__box">
+                    <h3 class="rivals__title">Готов выделить</h3>
+                    <p class="rivals__text">свой бизнес или личный бренд среди конкурентов?</p>
+                    <button data-modal class="button button--red rivals__button">Да! Какая цена?</button>
+                </div>
+                <div class="rivals__img"><img src="img/index/rivals/img.png" alt="notebook"></div>
+            </div>
+
+        </section>
+        <!-- /.section rivals -->
+
+        <section class="section clients">
+
+            <div class="clients__container container">
+                <p class="clients__name header__menu__name">Клиенты</p>
+                <h3 class="section__title clients__title">С кем я работал</h3>
+                <p class="clients__text">My name is Evgeniy, I love interesting projects in the field of design and redesign of websites and UI/UX. I will be happy to work on your project!</p>
+
+                <div class="clients__row row">
+                    <div class="clients__logo"><img src="img/index/clients/logo.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo1.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo2.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo3.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo4.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo5.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo6.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo7.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo8.png" alt="client"></div>
+                    <div class="clients__logo"><img src="img/index/clients/logo9.png" alt="client"></div>
+
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM1.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM2.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM3.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM4.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM5.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM6.png" alt="client"></div>
+                    <div class="clients__logo--mobile"><img src="img/index/clients/logoM7.png" alt="client"></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section partners -->
+
+        <section class="section go">
+
+            <div class="go__container container">
+                <div class="row go__row">
+                    <div class="go__box">
+                        <p class="go__name header__menu__name">давай начинать</p>
+                        <h3 class="section__title go__title">Получи <br> Бесплатный <br> Аудит</h3>
+                        <p class="go__text">Отправь заявку в форме справа, напиши ссылку на свой сайт или социальную сеть, я сделаю бесплатный аудит и пришлю его удобным для вас способом.</p>
+                    </div>
+
+                    <form action="#" method="POST" class="go__form">
+                        <div class="go__form__header">
+                            <p class="go__form__text">Выбери удобный способ связи </p>
+                            <div class="go__form__header__wrap">
+                                <div class="go__form__logo go__form__logo--active">
+                                    <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.275391 6.83075V17.375C0.275391 18.5022 0.723857 19.5832 1.52213 20.3802C2.32041 21.1772 3.4031 21.625 4.53203 21.625H21.5586C22.6875 21.625 23.7702 21.1772 24.5685 20.3802C25.3668 19.5832 25.8152 18.5022 25.8152 17.375V4.625C25.8152 3.49783 25.3668 2.41683 24.5685 1.6198C23.7702 0.822766 22.6875 0.375 21.5586 0.375H4.53203C3.4031 0.375 2.32041 0.822766 1.52213 1.6198C0.723857 2.41683 0.275391 3.49783 0.275391 4.625V6.83075ZM4.53203 2.5H21.5586C22.1231 2.5 22.6644 2.72388 23.0635 3.1224C23.4627 3.52091 23.6869 4.06141 23.6869 4.625V6.1975L13.0453 11.918L2.40371 6.1975V4.625C2.40371 4.06141 2.62794 3.52091 3.02708 3.1224C3.42622 2.72388 3.96757 2.5 4.53203 2.5ZM2.40371 8.6115L12.5409 14.06C12.6959 14.1433 12.8692 14.1869 13.0453 14.1869C13.2214 14.1869 13.3947 14.1433 13.5497 14.06L23.6869 8.6115V17.375C23.6869 17.9386 23.4627 18.4791 23.0635 18.8776C22.6644 19.2761 22.1231 19.5 21.5586 19.5H4.53203C3.96757 19.5 3.42622 19.2761 3.02708 18.8776C2.62794 18.4791 2.40371 17.9386 2.40371 17.375V8.6115Z" fill="#B2B9D0"/>
+                                    </svg> 
+                                </div>
+    
+                                <div class="go__form__logo">
+                                    <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M27.4555 0.265739L2.29875 9.95149C0.581906 10.64 0.591838 11.5962 1.98376 12.0227L8.4425 14.0343L23.3861 4.62057C24.0928 4.19132 24.7383 4.42224 24.2077 4.89257L12.1004 15.8023H12.0975L12.1004 15.8037L11.6548 22.4507C12.3075 22.4507 12.5956 22.1518 12.9616 21.7991L16.0988 18.7532L22.6242 23.5657C23.8274 24.2272 24.6915 23.8872 24.9909 22.4536L29.2745 2.29724C29.7129 0.541989 28.6034 -0.252761 27.4555 0.265739Z" fill="#B2B9D0"/>
+                                    </svg>                                    
+                                </div>
+    
+                                <div class="go__form__logo">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4133 4.91896C24.0944 3.59353 22.5253 2.54256 20.7967 1.82695C19.0682 1.11133 17.2146 0.745297 15.3434 0.750046C7.4968 0.750046 1.10917 7.12613 1.106 14.9636C1.106 17.4685 1.76093 19.9131 3.00579 22.0696L0.987061 29.4337L8.53392 27.4561C10.6215 28.5907 12.9602 29.1857 15.337 29.1867H15.3434C23.1884 29.1867 29.576 22.8106 29.5792 14.9731C29.5846 13.1056 29.2192 11.2554 28.5041 9.52972C27.7891 7.804 26.7385 6.23688 25.4133 4.91896ZM15.3434 26.788H15.3386C13.2192 26.7882 11.1388 26.2188 9.31572 25.1397L8.88438 24.8832L4.40606 26.0565L5.60017 21.6975L5.31949 21.251C4.13455 19.3675 3.50728 17.1879 3.51008 14.9636C3.51325 8.44979 8.82095 3.15038 15.3481 3.15038C16.9026 3.14693 18.4424 3.45134 19.8782 4.04599C21.3141 4.64064 22.6176 5.51373 23.7133 6.61471C24.8148 7.71044 25.6879 9.01329 26.2821 10.448C26.8763 11.8826 27.1798 13.4206 27.1751 14.9731C27.1719 21.487 21.8642 26.788 15.3434 26.788ZM21.8341 17.9387C21.4773 17.7598 19.7297 16.9016 19.403 16.7829C19.078 16.6641 18.8417 16.6055 18.6038 16.9602C18.3659 17.3149 17.684 18.1145 17.4763 18.352C17.2685 18.5895 17.0608 18.618 16.7056 18.4406C16.3504 18.2633 15.2038 17.888 13.8448 16.6784C12.7871 15.7363 12.0734 14.5741 11.8657 14.2179C11.658 13.8616 11.8435 13.67 12.0227 13.4927C12.1829 13.3344 12.3779 13.0779 12.5555 12.8705C12.7331 12.663 12.7918 12.5158 12.9107 12.2783C13.0297 12.0408 12.971 11.8334 12.8806 11.656C12.7918 11.4771 12.0798 9.72913 11.7832 9.01821C11.4962 8.32946 11.2028 8.42129 10.984 8.41179C10.7573 8.40254 10.5305 8.39831 10.3037 8.39913C10.1233 8.40372 9.94582 8.44547 9.78236 8.52175C9.6189 8.59804 9.47299 8.70723 9.35378 8.84246C9.0271 9.19871 8.10892 10.0569 8.10892 11.8049C8.10892 13.5529 9.38391 15.2423 9.56152 15.4798C9.73913 15.7173 12.0703 19.3035 15.6383 20.8425C16.4883 21.2083 17.1512 21.4268 17.6666 21.5915C18.5182 21.8622 19.2936 21.8226 19.9073 21.7324C20.5908 21.631 22.0117 20.8742 22.3082 20.0445C22.6048 19.2149 22.6048 18.504 22.516 18.3551C22.4272 18.2063 22.1877 18.116 21.8341 17.9387Z" fill="#B2B9D0"/>
+                                    </svg>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="go__row--input row">
+                            <div class="go__input-group">
+                                <input data-clear data-input required placeholder="Ваше имя" name="goName" type="text" class="go__input">
+                            </div>
+                            <div class="go__input-group go__input-group--msg go__input-group--msg--active">
+                                <input data-clear data-input required placeholder="E-mail" name="goMail" type="email" class="go__input">
+                            </div>
+                            <div class="go__input-group go__input-group--msg">
+                                <input data-clear data-input placeholder="Telegram" name="goTelegram" type="text" class="go__input">
+                            </div>
+                            <div class="go__input-group go__input-group--msg">
+                                <input data-clear data-input placeholder="WhatsApp" name="goWhatsApp" type="text" class="go__input">
+                            </div>
+                        </div>
+
+                        <textarea data-clear required placeholder="Сообщение" name="goMessage" cols="30" rows="10" class="go__textarea"></textarea>
+
+                        <p class="go__info">Нажимая на кнопку "Отправить", вы даете <span>согласие на обработку своих персональных данных.</span></p>
+
+                        <button class="button button--red go__button">
+                            <div class="transition-loader">
+                                <div class="transition-loader-inner">
+                                  <label></label>
+                                  <label></label>
+                                  <label></label>
+                                  <label></label>
+                                  <label></label>
+                                  <label></label>
+                                </div>
+                              </div>
+                            <span>Отправить</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section go -->
+
+    </main>
+
+    <footer class="footer section">
+
+        <div class="footer__container container">
+            <div class="footer__row">
+                <p class="footer__text">2021 Евгений Купцов. Все права защищены.</p>
+                <a href="#" class="footer__text">Верстка: <span>Эдуард Горшков</span></a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- /.footer section -->
+
+    <div data-modalClose class="modal">
+        <form action="send.php" method="POST" class="modal__dialog">
+            <div class="modal__close"><img src="img/modal/close.png" alt="close"></div>
+            <div class="modal__img"><img src="img/modal/photo.png" alt="Kuptsov"></div>
+            <div class="modal__box">
+                <p class="modal__title">Отправить заявку</p>
+
+                <div class="modal__row">
+                    <p class="modal__text">Выбери удобный способ связи </p>
+                    <div class="modal__wrap">
+                        <div class="modal__logo modal__logo--active">
+                            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.275452 6.83075V17.375C0.275452 18.5022 0.723918 19.5832 1.52219 20.3802C2.32047 21.1772 3.40316 21.625 4.53209 21.625H21.5587C22.6876 21.625 23.7703 21.1772 24.5686 20.3802C25.3668 19.5832 25.8153 18.5022 25.8153 17.375V4.625C25.8153 3.49783 25.3668 2.41683 24.5686 1.6198C23.7703 0.822766 22.6876 0.375 21.5587 0.375H4.53209C3.40316 0.375 2.32047 0.822766 1.52219 1.6198C0.723918 2.41683 0.275452 3.49783 0.275452 4.625V6.83075ZM4.53209 2.5H21.5587C22.1231 2.5 22.6645 2.72388 23.0636 3.1224C23.4627 3.52091 23.687 4.06141 23.687 4.625V6.1975L13.0454 11.918L2.40377 6.1975V4.625C2.40377 4.06141 2.628 3.52091 3.02714 3.1224C3.42628 2.72388 3.96763 2.5 4.53209 2.5ZM2.40377 8.6115L12.541 14.06C12.696 14.1433 12.8693 14.1869 13.0454 14.1869C13.2214 14.1869 13.3948 14.1433 13.5498 14.06L23.687 8.6115V17.375C23.687 17.9386 23.4627 18.4791 23.0636 18.8776C22.6645 19.2761 22.1231 19.5 21.5587 19.5H4.53209C3.96763 19.5 3.42628 19.2761 3.02714 18.8776C2.628 18.4791 2.40377 17.9386 2.40377 17.375V8.6115Z" fill="#B2B9D0"/>
+                            </svg>                                
+                        </div>
+
+                        <div class="modal__logo">
+                            <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.4554 0.265739L2.29869 9.95149C0.581845 10.64 0.591777 11.5962 1.9837 12.0227L8.44244 14.0343L23.3861 4.62057C24.0927 4.19132 24.7383 4.42224 24.2076 4.89257L12.1003 15.8023H12.0975L12.1003 15.8037L11.6548 22.4507C12.3075 22.4507 12.5955 22.1518 12.9616 21.7991L16.0987 18.7532L22.6241 23.5657C23.8274 24.2272 24.6915 23.8872 24.9908 22.4536L29.2744 2.29724C29.7129 0.541989 28.6033 -0.252761 27.4554 0.265739Z" fill="#B2B9D0"/>
+                            </svg>                              
+                        </div>
+
+                        <div class="modal__logo">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4134 4.91896C24.0945 3.59353 22.5254 2.54256 20.7969 1.82695C19.0683 1.11133 17.2147 0.745297 15.3435 0.750046C7.49692 0.750046 1.10929 7.12613 1.10612 14.9636C1.10612 17.4685 1.76106 19.9131 3.00592 22.0696L0.987183 29.4337L8.53404 27.4561C10.6216 28.5907 12.9603 29.1857 15.3372 29.1867H15.3435C23.1885 29.1867 29.5761 22.8106 29.5793 14.9731C29.5847 13.1056 29.2193 11.2554 28.5042 9.52972C27.7892 7.804 26.7387 6.23688 25.4134 4.91896ZM15.3435 26.788H15.3387C13.2193 26.7882 11.1389 26.2188 9.31584 25.1397L8.8845 24.8832L4.40618 26.0565L5.6003 21.6975L5.31961 21.251C4.13467 19.3675 3.5074 17.1879 3.5102 14.9636C3.51337 8.44979 8.82107 3.15038 15.3483 3.15038C16.9027 3.14693 18.4425 3.45134 19.8784 4.04599C21.3142 4.64064 22.6177 5.51373 23.7134 6.61471C24.8149 7.71044 25.688 9.01329 26.2822 10.448C26.8764 11.8826 27.1799 13.4206 27.1752 14.9731C27.172 21.487 21.8643 26.788 15.3435 26.788ZM21.8342 17.9387C21.4774 17.7598 19.7298 16.9016 19.4032 16.7829C19.0781 16.6641 18.8418 16.6055 18.6039 16.9602C18.366 17.3149 17.6841 18.1145 17.4764 18.352C17.2687 18.5895 17.0609 18.618 16.7057 18.4406C16.3505 18.2633 15.2039 17.888 13.8449 16.6784C12.7872 15.7363 12.0736 14.5741 11.8658 14.2179C11.6581 13.8616 11.8436 13.67 12.0228 13.4927C12.183 13.3344 12.378 13.0779 12.5556 12.8705C12.7333 12.663 12.7919 12.5158 12.9109 12.2783C13.0298 12.0408 12.9711 11.8334 12.8807 11.656C12.7919 11.4771 12.0799 9.72913 11.7834 9.01821C11.4963 8.32946 11.203 8.42129 10.9841 8.41179C10.7575 8.40254 10.5306 8.39831 10.3038 8.39913C10.1234 8.40372 9.94594 8.44547 9.78248 8.52175C9.61903 8.59804 9.47311 8.70723 9.3539 8.84246C9.02723 9.19871 8.10904 10.0569 8.10904 11.8049C8.10904 13.5529 9.38403 15.2423 9.56164 15.4798C9.73925 15.7173 12.0704 19.3035 15.6385 20.8425C16.4885 21.2083 17.1513 21.4268 17.6667 21.5915C18.5183 21.8622 19.2937 21.8226 19.9075 21.7324C20.5909 21.631 22.0118 20.8742 22.3084 20.0445C22.6049 19.2149 22.6049 18.504 22.5161 18.3551C22.4273 18.2063 22.1878 18.116 21.8342 17.9387Z" fill="#B2B9D0"/>
+                            </svg>                                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal__row--input row">
+                    <div class="modal__input-group">
+                        <input data-clear data-input name="modalName" placeholder="Ваше имя" type="text" class="modal__input">
+                    </div>
+                    <div class="modal__input-group modal__input-group--msg modal__input-group--msg--active">
+                        <input data-clear data-input name="modalMail" placeholder="E-mail" type="email" class="modal__input">
+                    </div>
+                    <div class="modal__input-group modal__input-group--msg">
+                        <input data-clear data-input name="modalTelegram" placeholder="Telegram" type="text" class="modal__input">
+                    </div>
+                    <div class="modal__input-group modal__input-group--msg">
+                        <input data-clear data-input name="modalWhatsApp" placeholder="WhatsApp" type="text" class="modal__input">
+                    </div>
+                </div>
+
+                <textarea data-clear required placeholder="Сообщение" name="modalMsg" id="" cols="30" rows="10" class="modal__textarea"></textarea>
+
+                <div class="modal__row--file">
+                    <label for="modalFile" class="modal__label">
+                        <img src="img/modal/file.png" alt="file">
+                        <span>Прикрепить файл</span>
+                        <input id="modalFile" type="file" class="modal__file">
+                    </label>
+                    <button class="button button--red modal__button">
+                        <div class="transition-loader">
+                            <div class="transition-loader-inner">
+                              <label></label>
+                              <label></label>
+                              <label></label>
+                              <label></label>
+                              <label></label>
+                              <label></label>
+                            </div>
+                        </div>
+                        <span>Отправить</span>
+                    </button>
+                </div>
+
+                <p class="modal__info">Нажимая на кнопку "Отправить", вы даете <span>согласие на обработку своих персональных данных.</span></p>
+            </div>
+        </form>
+    </div>
+    <!-- /.modal -->
+
+    <div data-modalClose class="modal-success modal-success--ok">
+        <div class="modal-success__dialog">
+            <div class="modal-success__close"><img src="img/modal/close.png" alt="close"></div>
+            <div class="modal-success__row">
+                <div class="modal-success__img">
+                    <img src="img/modal/ok.png" alt="ok">
+                </div>
+                <h5 class="modal-success__title">Ваша заявка <br> отправлена</h5>
+            </div>
+
+            <p class="modal-success__text">Спасибо за обращение. Мы свяжемся с вами как можно быстрее!</p>
+        </div>
+    </div>
+    <!-- /.modal-success -->
+
+    <div data-modalClose class="modal-success modal-success--fail">
+        <div class="modal-success__dialog">
+            <div class="modal-success__close"><img src="img/modal/close.png" alt="close"></div>
+            <div class="modal-success__row">
+                <div class="modal-success__img">
+                    <img src="img/modal/fail.png" alt="ok">
+                </div>
+                <h5 class="modal-success__title">Ошибка <br> отправки</h5>
+            </div>
+
+            <p class="modal-success__text">Попробуйте повторить отправку формы еще раз.</p>
+        </div>
+    </div>
+    <!-- /.modal-success -->
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
