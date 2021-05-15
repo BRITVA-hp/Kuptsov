@@ -31,7 +31,7 @@ if ($_POST['modalName']) {
 
     //Recipients
     $mail->setFrom('borbritvahp@gmail.com');
-    $mail->addAddress('britvahp@mail.ru');     // Add a recipient
+    $mail->addAddress('e.kuptsov88@gmail.com');     // Add a recipient
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
@@ -80,7 +80,7 @@ if ($_POST['goName']) {
 
     //Recipients
     $mail1->setFrom('borbritvahp@gmail.com');
-    $mail1->addAddress('britvahp@mail.ru');     // Add a recipient
+    $mail1->addAddress('e.kuptsov88@gmail.com');     // Add a recipient
 
     // Content
     $mail1->isHTML(true);                                  // Set email format to HTML

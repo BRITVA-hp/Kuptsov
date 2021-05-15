@@ -206,7 +206,9 @@ window.addEventListener('DOMContentLoaded', () => {
         const slidesField_ = document.querySelector(slidesField),
               sliderCards_ = document.querySelectorAll(sliderCards);
 
-        slidesField_.style.width = `${cardWidth * sliderCards_.length + margin * (sliderCards_.length)}px`;
+        if (slidesField_) {
+            slidesField_.style.width = `${cardWidth * sliderCards_.length + margin * (sliderCards_.length)}px`;
+        }
     };
 
     widthSliderMobile('.cases__card--mobile', '.cases__inner--mobile', 280, 20);

@@ -27,8 +27,9 @@
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.14",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-tinypng-compress": "^1.2.5"
+    "gulp-tinypng-compress": "^1.2.5",
+    "jshint": "^2.12.0"
   }
 }

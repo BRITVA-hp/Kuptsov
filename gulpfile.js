@@ -80,9 +80,9 @@ function fonts(done) {
 function imagemin (done) {
     src('img/**/**')
         .pipe(tinypng({key: 'pfjHKKSg23SHDBzgpTK4QGYwRwcZRW5H',}))
-        .pipe(dest('dist/img/'))
+        .pipe(dest('dist/img/'));
     src('img/**/*.svg')
-        .pipe(dest('dist/img/'))
+        .pipe(dest('dist/img/'));
     done();
 }
 exports.serve = bs;
