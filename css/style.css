@@ -963,8 +963,12 @@ textarea:focus {
       font-size: 16px;
       line-height: 150%;
       color: #B2B9D0;
-      margin-bottom: 40px;
-      max-width: 670px; }
+      margin-bottom: 40px; }
+      .cases__card__text span {
+        font-family: 'Montserrat-Bold';
+        color: #B2B9D0; }
+      .cases__card__text--first {
+        margin-bottom: 0 !important; }
       .cases__card__text--mobile {
         font-size: 14px;
         margin-bottom: 30px; }
