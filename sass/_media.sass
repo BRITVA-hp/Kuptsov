@@ -29,6 +29,10 @@
                 padding-left: 0
 
 @media screen and ( max-width: 1500px )
+    .cases
+        &-main
+            &__img
+                width: 750px
     .clients
         padding-bottom: 100px
         &__logo
@@ -67,6 +71,13 @@
             right: 0
 
 @media screen and ( max-width: 1400px )
+    .cases
+        &-desctop
+            &__img
+                max-width: 750px
+        &-main
+            &__img
+                width: 650px
     .rivals
         &__container
             padding-left: 80px
@@ -119,6 +130,22 @@
                 top: 205px
 
 @media screen and ( max-width: 1250px )
+    .cases
+        &-desctop
+            &__img
+                max-width: 600px
+        &-main
+            padding-top: 180px
+            padding-bottom: 100px
+            &__img
+                width: 530px
+            &__wrap
+                &__title
+                    font-size: 18px
+                &__text
+                    font-size: 18px
+            &__title
+                margin-bottom: 65px 
     .policy
         &__text
             font-size: 16px
@@ -306,6 +333,27 @@
                 left: 265px
 
 @media screen and ( max-width: 992px )
+    .cases
+        &-desctop
+            &__title
+                margin-bottom: 25px
+            &__text
+                font-size: 14px
+            &__img
+                max-width: 500px
+        &-main
+            padding-top: 160px
+            padding-bottom: 50px
+            &__img
+                width: 360px
+            &__title
+                margin-bottom: 30px
+            &__wrap
+                &__title
+                    font-size: 14px
+                &__text
+                    font-size: 14px
+                    max-width: 330px
     .policy
         &__title
             font-size: 14px
@@ -609,6 +657,38 @@
             max-width: 340px
 
 @media screen and ( max-width: 767px )
+    .cases
+        &-desctop
+            &__img
+                img
+                    &:first-of-type
+                        display: none
+                    &:last-child
+                        display: block
+            &__box
+                margin-bottom: 40px
+            &__container
+                max-width: 400px
+            &__row
+                flex-direction: column
+        &-main
+            background-size: cover
+            &__wrap
+                padding-left: 20px
+            &__box
+                margin-bottom: 40px
+            &__img
+                padding-top: 0
+                width: auto
+                img
+                    &:first-of-type
+                        display: none
+                    &:last-child
+                        display: block
+            &__container
+                max-width: 400px
+            &__row
+                flex-direction: column
     .footer
         padding-top: 20px
         padding-bottom: 20px

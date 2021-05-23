@@ -927,6 +927,8 @@ textarea:focus {
   padding: 110px 0 360px 0;
   max-width: 1920px;
   margin: auto; }
+  .cases--padding {
+    padding-bottom: 210px; }
   .cases__card {
     width: 730px; }
     .cases__card--mobile {
@@ -1371,6 +1373,59 @@ textarea:focus {
   .policy__link {
     color: #B2B9D0; }
 
+.cases-main {
+  padding-top: 240px;
+  padding-bottom: 200px;
+  background-image: url(../img/cases/main/bg.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+  .cases-main__name {
+    margin-bottom: 25px; }
+  .cases-main__title {
+    margin-bottom: 100px; }
+  .cases-main__wrap {
+    padding-left: 30px;
+    position: relative; }
+    .cases-main__wrap::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to bottom, #DB4040 20%, #FB6E44); }
+    .cases-main__wrap__title {
+      font-family: 'Montserrat-Bold';
+      font-style: normal;
+      font-size: 20px;
+      line-height: 130%;
+      color: #B2B9D0;
+      margin-bottom: 10px; }
+    .cases-main__wrap__text {
+      font-family: 'Montserrat-300';
+      font-style: normal;
+      font-size: 20px;
+      line-height: 130%;
+      color: #B2B9D0;
+      max-width: 450px; }
+  .cases-main__img {
+    padding-top: 50px; }
+    .cases-main__img img:last-child {
+      display: none; }
+
+.cases-desctop__img img:last-child {
+  display: none; }
+
+.cases-desctop__title {
+  margin-bottom: 35px; }
+
+.cases-desctop__text {
+  font-family: 'Montserrat-300';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #B2B9D0; }
+
 .modal {
   opacity: 0;
   visibility: hidden;
@@ -1628,6 +1683,8 @@ textarea:focus {
     padding-left: 0; } }
 
 @media screen and (max-width: 1500px) {
+  .cases-main__img {
+    width: 750px; }
   .clients {
     padding-bottom: 100px; }
     .clients__logo {
@@ -1663,6 +1720,10 @@ textarea:focus {
     right: 0; } }
 
 @media screen and (max-width: 1400px) {
+  .cases-desctop__img {
+    max-width: 750px; }
+  .cases-main__img {
+    width: 650px; }
   .rivals__container {
     padding-left: 80px; }
   .rivals__img {
@@ -1709,6 +1770,19 @@ textarea:focus {
       top: 205px; } }
 
 @media screen and (max-width: 1250px) {
+  .cases-desctop__img {
+    max-width: 600px; }
+  .cases-main {
+    padding-top: 180px;
+    padding-bottom: 100px; }
+    .cases-main__img {
+      width: 530px; }
+    .cases-main__wrap__title {
+      font-size: 18px; }
+    .cases-main__wrap__text {
+      font-size: 18px; }
+    .cases-main__title {
+      margin-bottom: 65px; }
   .policy__text {
     font-size: 16px;
     margin-bottom: 15px; }
@@ -1884,6 +1958,24 @@ textarea:focus {
     left: 265px; } }
 
 @media screen and (max-width: 992px) {
+  .cases-desctop__title {
+    margin-bottom: 25px; }
+  .cases-desctop__text {
+    font-size: 14px; }
+  .cases-desctop__img {
+    max-width: 500px; }
+  .cases-main {
+    padding-top: 160px;
+    padding-bottom: 50px; }
+    .cases-main__img {
+      width: 360px; }
+    .cases-main__title {
+      margin-bottom: 30px; }
+    .cases-main__wrap__title {
+      font-size: 14px; }
+    .cases-main__wrap__text {
+      font-size: 14px;
+      max-width: 330px; }
   .policy__title {
     font-size: 14px; }
   .policy__text {
@@ -2172,6 +2264,33 @@ textarea:focus {
     max-width: 340px; } }
 
 @media screen and (max-width: 767px) {
+  .cases-desctop__img img:first-of-type {
+    display: none; }
+  .cases-desctop__img img:last-child {
+    display: block; }
+  .cases-desctop__box {
+    margin-bottom: 40px; }
+  .cases-desctop__container {
+    max-width: 400px; }
+  .cases-desctop__row {
+    flex-direction: column; }
+  .cases-main {
+    background-size: cover; }
+    .cases-main__wrap {
+      padding-left: 20px; }
+    .cases-main__box {
+      margin-bottom: 40px; }
+    .cases-main__img {
+      padding-top: 0;
+      width: auto; }
+      .cases-main__img img:first-of-type {
+        display: none; }
+      .cases-main__img img:last-child {
+        display: block; }
+    .cases-main__container {
+      max-width: 400px; }
+    .cases-main__row {
+      flex-direction: column; }
   .footer {
     padding-top: 20px;
     padding-bottom: 20px; }

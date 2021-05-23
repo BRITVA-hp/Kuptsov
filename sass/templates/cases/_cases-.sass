@@ -1,0 +1,54 @@
+.cases
+    &-main
+        padding-top: 240px
+        padding-bottom: 200px
+        background-image: url(../img/cases/main/bg.png)
+        background-repeat: no-repeat
+        background-position: center
+        &__name
+            margin-bottom: 25px
+        &__title
+            margin-bottom: 100px
+        &__wrap
+            padding-left: 30px
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                left: 0
+                top: 0
+                width: 2px
+                height: 100%
+                background: linear-gradient(to bottom, #DB4040 20%, #FB6E44)
+            &__title
+                font-family: 'Montserrat-Bold'
+                font-style: normal
+                font-size: 20px
+                line-height: 130%
+                color: #B2B9D0
+                margin-bottom: 10px
+            &__text
+                font-family: 'Montserrat-300'
+                font-style: normal
+                font-size: 20px
+                line-height: 130%
+                color: #B2B9D0
+                max-width: 450px
+        &__img
+            padding-top: 50px
+            img
+                &:last-child
+                    display: none
+    &-desctop
+        &__img
+            img
+                &:last-child
+                    display: none
+        &__title
+            margin-bottom: 35px
+        &__text
+            font-family: 'Montserrat-300'
+            font-style: normal
+            font-size: 16px
+            line-height: 130%
+            color: #B2B9D0
