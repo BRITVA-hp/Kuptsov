@@ -30,6 +30,20 @@
 
 @media screen and ( max-width: 1500px )
     .cases
+        &-slider
+            &__interface
+                justify-content: center
+            &__container
+                max-width: 850px
+            &__box
+                align-self: flex-start
+                width: 100%
+                margin-bottom: 30px
+                &__wrap
+                    margin-bottom: 30px
+            &__row
+                flex-direction: column
+                display: flex
         &-main
             &__img
                 width: 750px
@@ -72,6 +86,9 @@
 
 @media screen and ( max-width: 1400px )
     .cases
+        &-mobile
+            &__img
+                width: 200px
         &-desctop
             &__img
                 max-width: 750px
@@ -131,7 +148,22 @@
 
 @media screen and ( max-width: 1250px )
     .cases
+        &-ready
+            &__text
+                font-size: 24px
+                max-width: 440px
+        &-mobile
+            &__row
+                &--img
+                    width: 574px
+            &__text
+                max-width: 350px
+            &__img
+                display: none
+                &--mobile
+                    display: block
         &-desctop
+            margin-bottom: 107px
             &__img
                 max-width: 600px
         &-main
@@ -334,7 +366,55 @@
 
 @media screen and ( max-width: 992px )
     .cases
+        &-ready
+            background-position-x: calc( 50% + 180px )
+            background-position-y: calc( 50% - 80px )
+            &__text
+                font-size: 18px
+                max-width: 330px
+            &__img
+                img
+                    &:first-of-type
+                        display: none
+                    &:last-child
+                        display: block
+        &-slider
+            padding-left: 0
+            padding-right: 0
+            &__progress
+                display: block
+            &__box
+                padding-left: 20px
+                padding-right: 20px
+            &__container
+                max-width: none
+            &__window
+                display: none
+                &--mobile
+                    display: block
+            &__box
+                margin-bottom: 58px
+                &__wrap
+                    margin-bottom: 0
+            &__interface
+                display: none
+            &__title
+                margin-bottom: 25px
+            &__text
+                font-size: 14px
+        &--padding
+            padding-bottom: 50px !important
+        &-mobile
+            &__box
+                margin-bottom: 40px
+            &__row
+                flex-direction: column
+            &__title
+                margin-bottom: 25px
+            &__text
+                font-size: 14px
         &-desctop
+            margin-bottom: 54px
             &__title
                 margin-bottom: 25px
             &__text
@@ -658,6 +738,26 @@
 
 @media screen and ( max-width: 767px )
     .cases
+        &-ready
+            background-position-x: center
+            background-position-y: calc( 50% - 160px)
+            padding-bottom: 50px
+            background-size: 800px
+            &__title
+                margin-bottom: 5px
+            &__row
+                flex-direction: column-reverse
+        &-mobile
+            &__img
+                &--mobile
+                    margin-bottom: 14px
+            &__container
+                max-width: 400px
+            &__row
+                &--img
+                    width: auto
+                    flex-wrap: wrap
+                    max-width: 280px
         &-desctop
             &__img
                 img

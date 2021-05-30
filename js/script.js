@@ -5,6 +5,42 @@ window.addEventListener('DOMContentLoaded', () => {
           modalSuccessFail = document.querySelector('.modal-success--fail');
 
 
+
+    // Функция слайдера на странице cases.html
+
+    // function sliderCases(prev, next, slides, sliderField, margin, current, total) {
+    //     const prev_ = document.querySelector(prev),
+    //           next_ = document.querySelector(next),
+    //           slides_ = document.querySelectorAll(slides),
+    //           sliderField_ = document.querySelector(sliderField),
+    //           current_ = document.querySelector(current),
+    //           total_ = document.querySelector(total);
+
+    //     let counter = 0;
+
+    //     total_.textContent = slides_.length;
+    //     sliderField_.style.width = `${slides_.length * 850 + margin * (slides_.length - 1)}px`;
+    //     next_.addEventListener('click', () => {
+    //         counter++;
+    //         if (counter >= slides_.length) {
+    //             counter = 0;
+    //         }
+    //         current_.textContent = counter + 1;
+    //         sliderField_.style.transform = `translateX(-${(850 + margin) * counter}px)`;
+    //     });
+
+    //     prev_.addEventListener('click', () => {
+    //         counter--;
+    //         if (counter < 0) {
+    //             counter = slides_.length - 1;
+    //         }
+    //         current_.textContent = counter + 1;
+    //         sliderField_.style.transform = `translateX(-${(850 + margin) * counter}px)`;
+    //     });
+    // }
+
+    // sliderCases('.cases-slider__arrow--prev', '.cases-slider__arrow--next', '.cases-slider__card', '.cases-slider__inner', 20, '.cases-slider__interface__text--current', '.cases-slider__interface__text--total');
+
     // Функция для закрытие модалок
 
     function modalClose(modal) {
